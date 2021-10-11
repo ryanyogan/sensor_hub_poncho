@@ -34,6 +34,6 @@ defmodule SensorHub.Sensor do
   end
 
   def convert_fn(VEML6030) do
-    fn data -> %{light_in_luments: data} end
+    fn data -> %{light_lumens: data} end
   end
 end
